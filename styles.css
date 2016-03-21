@@ -1,3 +1,35 @@
-body {
+/*body {
 	background: blue;
+}*/
+
+body h1 {
+	border: 3px dotted blue;
+	padding: 5px;
+	text-align: center;
+}
+
+#intro {
+	padding: 10px;
+}
+/*
+#bottom {
+
+}*/
+
+/*#cite {
+	text-align: center;
+}*/
+
+.font {
+	font-family: "Georgia", serif;
+}
+
+table {
+    background-image: url("hop-clipart-aceR947ri.png");
+    background-repeat: repeat;
+}
+
+/* visited link */
+a:visited {
+    color: orange;
 }
