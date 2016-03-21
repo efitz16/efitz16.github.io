@@ -6,22 +6,21 @@ body h1 {
 	border: 3px dotted blue;
 	padding: 5px;
 	text-align: center;
+	font-family: Impact;
 }
 
 #intro {
-	padding: 10px;
+	margin: 30px;
+	font-family: Arial, sans-serif;
 }
-/*
-#bottom {
-
-}*/
-
-/*#cite {
-	text-align: center;
-}*/
 
 .font {
-	font-family: "Georgia", serif;
+	color: red;
+	font-weight: bold;
+}
+
+table th {
+	text-decoration: underline;
 }
 
 table {
@@ -32,6 +31,10 @@ table {
 /* visited link */
 a:visited {
     color: orange;
+}
+
+.italics {
+	text-decoration: line-through;
 }
 
 @media screen and (max-width: 500px) {
