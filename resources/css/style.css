@@ -1,0 +1,112 @@
+body {
+	background: url('../images/white-washed-grunge-patterns-part-2-4.jpg');
+	}
+
+#welcome, .panel-body, footer {
+	font-family: 'Bellefair', serif;
+}
+
+#welcome {
+	background-color: rgba(205, 203, 198, 0.8);
+	border-radius: 5px;
+	font-size: 2rem;
+	font-weight: 500;
+	margin: 10px;
+	padding: 15px;
+	/*position: fixed;*/
+	right: 0; 
+	/*color: rgb(32, 39, 58);*/
+	/*font-family: 'Chonburi', serif;*/
+}
+
+.heading-title, #projects h4 {
+	font-family: 'Chonburi', cursive;
+	font-weight: bold;
+}
+
+.panel-default>.panel-heading {
+	/*background-color: rgb(205, 203, 198) !important;*/
+}
+
+.heading-title {
+	/*color: rgb(205, 203, 198);*/
+	font-size: 5rem;
+	font-weight: bold;
+	color: white;
+	margin: 15px;
+	text-shadow: 2px 2px rgb(32, 39, 58);
+}
+
+#projects {
+    /*z-index: 1;*/
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+#projects:after {
+	height: 15px;
+}
+
+#projects h4 {
+	/*font-size: 20px;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+a#email-link {
+	color: black;
+}
+.glyphicon {
+    top: 7px;
+}
+
+.icon {
+	padding: 5px;
+	height: 4rem;
+	width: 4rem;
+}
+
+.email-icon {
+	height: 5rem !important;
+	width: 5rem !important;
+}
+
+img.screenshot {
+	height: 300px;
+	width: 500px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.panel-body {
+	/*z-index: 3;*/
+	font-size: 2rem;
+	background-color: rgba(245,245,245, 0.8);
+}
+
+footer {
+	/*position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    opacity: 1;*/
+    color: white;
+     position:absolute;
+   bottom:0;
+   width:100%;
+   height:10%; 
+   margin-top: 5%;
+   z-index: -10;
+}
+
+@media (min-width: 992px) {
+	.col-md-8 {
+    	width: 64.666667%;
+	}
+	#welcome {
+		float: right;
+	}
+}

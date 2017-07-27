@@ -2,9 +2,94 @@
 <html>
 <head>
 	<title>Elizabeth Fitzpatrick</title>
+	<link rel="stylesheet" type="text/css" href="resources/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<!-- <link href="resources/fonts/Bellefair/Bellefair-Regular.ttf" type="text/css" rel="stylesheet"> -->
+	<!-- <link href="resources/fonts/Chonburi/Chonburi-Regular.ttf" type="text/css" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
 </head>
 <body>
-  <a href="https://efitz16.github.io/2048-clone/"> JS clone</a>
+  <!-- <a href="https://efitz16.github.io/2048-clone/"> JS clone</a> -->
+  <div class="container-fluid">
+    <div class="row">
+    	<div class="col-sm-12 col-md-4" id="welcome">
+    	  <p>Hello, my name is Elizabeth Fitzpatrick, and I'm a Full-Stack developer. I have experience working with Ruby on Rails, AngularJS, Node.js, and Spring Boot, along with HTML, CSS, and JavaScript.</p>
+    	  <p>Here, you'll find links to some of my projects, as well as more information about me.</p>
+    	  <div class="icons">
+    	  	<a href="mailto:efitzpatrickdev@gmail.com" target="_top" id="email-link"><span class="glyphicon glyphicon glyphicon-envelope" class="icon" id="email-icon"></span></a>
+    	  	<a href="github.com/efitz16"><img class="icon" id="github-icon" src="resources/Github-Mark/PNG/GitHub-Mark-120px-plus.png"></a>
+    	  </div>	
+    	</div> <!-- #welcome -->
 
+    	<div id="projects" class="col-sm-12 col-md-8">
+    	  <h3 class="heading-title">Projects</h3>
+    	  <div class="panel-group" id="accordion">
+    	    <div class="panel panel-default">
+    	      <div class="panel-heading">
+    	        <h4 class="panel-title">
+    	                <a data-toggle="collapse" data-parent="#accordion" href="#chowsource">
+    	                Chowsource</a>
+    	        </h4>
+    	      </div><!-- panel-heading -->
+    	      <div id="chowsource" class="panel-collapse collapse">
+      			<div class="panel-body">
+      				<img class="screenshot" src="resources/images/screenshots/firstchowsourcescreenshot.png">
+      				<p class="app-date">June 2016</p>
+      				<a href="https://fast-inlet-40467.herokuapp.com/">Link</a>
+      				<p>A recipe-sharing application built using Ruby on Rails. Registered users can create their own recipes, as well as search for and rate other users' recipes. Code can be found <a href="https://github.com/efitz16/chowsource">here</a>.</p>
+      			</div>
+    		  </div><!-- panel-collapse -->
+    	    </div><!-- panel panel-default -->
+
+    	    <div class="panel panel-default">
+    	      <div class="panel-heading">
+    	        <h4 class="panel-title">
+    	                <a data-toggle="collapse" data-parent="#accordion" href="#2048clone">
+    	                2048 Clone</a>
+    	        </h4>
+    	      </div><!-- panel-heading -->
+    	      <div id="2048clone" class="panel-collapse collapse">
+      			<div class="panel-body">
+      				<img class="screenshot" src="resources/images/screenshots/2048clonescreenshot.png">
+      				<p class="app-date">July 2016</p>
+      				<a href="https://efitz16.github.io/2048-clone/">www.efitz16.github.io/2048-clone</a>
+      				<p>A clone of the popular <a href="http://2048game.com/">2048 game</a>, made using vanilla JavaScript. Created in order to practice object-oriented programming, as well as algorithmic thinking, in JavaScript. Code can be found <a href="https://github.com/efitz16/2048-clone">here</a>.</p>
+      			</div>
+    		  </div><!-- panel-collapse -->
+    	    </div><!-- panel panel-default -->
+
+    	    <div class="panel panel-default">
+    	      <div class="panel-heading">
+    	        <h4 class="panel-title">
+    	                <a data-toggle="collapse" data-parent="#accordion" href="#herhealth">
+    	                Her Health</a>
+    	        </h4>
+    	      </div><!-- panel-heading -->
+    	      <div id="herhealth" class="panel-collapse collapse">
+    	      	<div class="panel-body">
+    	      		<img class="screenshot" src="resources/images/screenshots/herhealthscreenshot.png">
+    	      		<p class="app-date">October 2016</p>
+    	      		<a href="https://mysterious-bastion-78807.herokuapp.com/">Link</a>
+    	      		<p>Application made for the 2016 NYC LadyProblems Hackathon that seeks to make it easier for women to share their medical bills online in order to increase transparency about fees in the insurance and health industry. Women can upload bills, as well as search for bils based on location, operation, and price. Code can be found <a href="https://github.com/efitz16/LadyProblemsNYCHack2016">here</a>.</p>
+    	      	</div>
+    	      </div><!-- panel-collapse -->
+    	    </div><!-- panel panel-default -->
+    	  	
+    	  </div><!-- accordion -->
+    		
+    	</div><!-- projects -->
+    </div><!-- row -->
+    <footer>
+    	<div class="row">
+    		<div class="col-sm-12">
+    		<p>&copy; Elizabeth Fitzpatrick 2017</p>
+    		<p>Credit to <a href="http://mysitemyway.com">mysitemyway</a> for the background image.</p>
+    		</div>	
+    	</div>
+    </footer>
+  </div><!-- container-fluid -->
+   <script type="text/javascript" src="resources/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="resources/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
